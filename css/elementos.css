@@ -1,0 +1,53 @@
+.cartaoGitHub{
+    min-width: 400px; width: 400px; max-width: 400px;
+    min-height: 100%; height: 100%; max-height: 100%;
+    background-color: #f6f8fa;
+    border: solid 1px; border-color: #d0d7de;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+    display: grid;
+	grid-template-rows: min-content auto min-content;
+}
+
+.cartaoGitHub #add:hover{
+    background-color: #eff2f5;
+    border-radius: 0px 0px 10px 10px;
+    cursor: pointer;
+}
+
+.cartaoGitHub_tarefa{
+    min-width: 100%; width: 100%; max-width: 100%;
+    min-height: 75px; height: 75px; max-height: 75px;
+    background-color: #ffffff;
+    border: solid 1px; border-color: #d0d7de;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    display: grid;
+	grid-template-rows: min-content auto ;
+
+}
+
+.cartaoGitHub_Add{
+    min-width: fit-content; width: fit-content; max-width: fit-content;
+    min-height: fit-content; height: fit-content; max-height: fit-content;
+    background-color: #ffffff;
+    border: solid 1px; border-color: #d0d7de;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+    display: grid;
+	grid-template-rows: min-content auto min-content;
+}
+
+.cartaoGitHub_Add:hover{
+    background-color: #f6f8fa;
+}
+
+.displayCard{
+    min-width: 300px; width: 600px; max-width: 600px;
+}
