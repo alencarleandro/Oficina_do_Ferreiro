@@ -519,6 +519,11 @@
 	grid-template-rows: min-content auto min-content;
 }
 
+.grid3x3H{
+	display: grid;
+	grid-template-rows: auto auto auto;
+}
+
 .grid3x3HT{
 	display: grid;
 	grid-template-rows: auto min-content min-content;

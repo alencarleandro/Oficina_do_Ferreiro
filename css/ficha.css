@@ -1,0 +1,71 @@
+.ficha {
+
+    display: grid;
+    row-gap: 16px;
+    column-gap: 16px;
+    grid-template-columns: min-content min-content auto auto ;
+    grid-template-rows: min-content auto auto;
+    grid-template-areas:
+        "personagem personagem maoDireita armadura ataques"
+        "inventario inventario maoEsquerda armadura rituais"
+        "inventario inventario maoEsquerda armadura rituais";
+}
+
+/* 1 */
+
+.personagem {
+    grid-area: personagem;
+}
+
+.maoDireita {
+    grid-area: maoDireita;
+}
+
+.maoEsquerda {
+    grid-area: maoEsquerda;
+}
+
+.armadura {
+    grid-area: armadura;
+}
+
+.acessorios {
+    grid-area: acessorios;
+}
+
+.rituais {
+    grid-area: rituais;
+}
+
+.inventario {
+    grid-area: inventario;
+}
+
+.ataques {
+    grid-area: ataques;
+}
+
+
+.gridArmadura {
+    display: grid;
+    row-gap: 16px;
+    column-gap: 16px;
+    grid-template-columns: auto ;
+    grid-template-rows: min-content auto auto;
+    grid-template-areas:
+        "capacete capacete capacete"
+        "peitoral_braceletes peitoral_braceletes peitoral_braceletes"
+        "botas botas botas";
+}
+
+.capacete {
+    grid-area: capacete;
+}
+
+.peitoral_braceletes {
+    grid-area: peitoral_braceletes;
+}
+
+.botas {
+    grid-area: botas;
+}

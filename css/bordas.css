@@ -6,3 +6,5 @@
 .bordaCinzaCompleta{border: solid 1px ;border-width: 1px; border-color: #bcc3ca;}
 .bordaPreta{border: solid 1px ;border-width: 1px; border-color: #000000;}
 .bordaCinzasTopRight{border: solid 1px 1px 0px 0px; border-color: #808080; border-width: 1px 1px 0px 0px;}
+.bordaCinzasRight{border: solid 1px; border-color: #808080; border-width: 0px 1px 0px 0px;}
+.bordaCinzasBotton{border: solid 1px; border-color: #808080; border-width: 0px 0px 1px 0px;}
